@@ -6,10 +6,7 @@ import com.mongodb.MongoCredential;
 import com.mongodb.ServerAddress;
 import org.apache.commons.lang.math.NumberUtils;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
-import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
@@ -20,7 +17,6 @@ import java.util.List;
  * Created by asish on 4/6/16.
  */
 @Configuration
-//@PropertySource(value = { "classpath:application.properties" })
 @EnableMongoRepositories(basePackages = "org.yagna.samples.angularspringmongo.repository")
 public class MongoConfig extends AbstractMongoConfiguration {
 
@@ -35,9 +31,6 @@ public class MongoConfig extends AbstractMongoConfiguration {
 
     @Value("${mongo.db.host}")
     private String host;
-
-//    @Value("#{new Integer('${mongo.db.port}')}")
-//    private Integer port;
 
     @Value("${mongo.db.port}")
     private String port;
@@ -61,14 +54,4 @@ public class MongoConfig extends AbstractMongoConfiguration {
         return "org.yagna.samples.angularspringmongo";
     }
 
-    /*
-     * PropertySourcesPlaceHolderConfigurer Bean only required for @Value("{}") annotations.
-     * Remove this bean if you are not using @Value annotations for injecting properties.
-     */
-//    @Bean
-//    PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
-//        return new PropertySourcesPlaceholderConfigurer();
-//    }
-
-    //mongodb://yagna-blog-user:yagna-pwd@ds049548.mlab.com:49548/yagna-blog
 }
