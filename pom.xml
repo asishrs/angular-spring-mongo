@@ -22,7 +22,7 @@
     <servletApi.version>6.1.11</servletApi.version>
     <apacheCommonLang.version>2.6</apacheCommonLang.version>
     <apacheCodec.version>1.9</apacheCodec.version>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
   </properties>
 
   <dependencies>
