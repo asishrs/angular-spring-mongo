@@ -18,7 +18,7 @@
     <logback.version>1.2.9</logback.version>
     <jee.version>7.0</jee.version>
     <org.mongodb.version>3.2.2</org.mongodb.version>
-    <org.springframework.data.version>1.10.12.RELEASE</org.springframework.data.version>
+    <org.springframework.data.version>3.4.0</org.springframework.data.version>
     <servletApi.version>6.1.11</servletApi.version>
     <apacheCommonLang.version>2.6</apacheCommonLang.version>
     <apacheCodec.version>1.13</apacheCodec.version>
