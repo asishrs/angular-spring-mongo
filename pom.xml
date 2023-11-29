@@ -15,7 +15,7 @@
     <com.fasterxml.jackson.version>2.12.7.1</com.fasterxml.jackson.version>
     <org.eclipse.jetty.version>9.3.0.M2</org.eclipse.jetty.version>
     <slf4j.version>1.7.10</slf4j.version>
-    <logback.version>1.4.6</logback.version>
+    <logback.version>1.4.12</logback.version>
     <jee.version>7.0</jee.version>
     <org.mongodb.version>3.2.2</org.mongodb.version>
     <org.springframework.data.version>4.0.4</org.springframework.data.version>
