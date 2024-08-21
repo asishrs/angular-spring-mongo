@@ -21,7 +21,7 @@
     <org.springframework.data.version>4.0.4</org.springframework.data.version>
     <servletApi.version>6.1.11</servletApi.version>
     <apacheCommonLang.version>2.6</apacheCommonLang.version>
-    <apacheCodec.version>1.13</apacheCodec.version>
+    <apacheCodec.version>1.14</apacheCodec.version>
     <junit.version>4.13.1</junit.version>
   </properties>
 
