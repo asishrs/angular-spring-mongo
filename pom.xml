@@ -10,15 +10,15 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <io.jsonwebtoken.version>0.6.0</io.jsonwebtoken.version>
-    <spring-framework.version>6.1.14</spring-framework.version>
-    <spring-framework-security.version>6.3.8</spring-framework-security.version>
+    <spring-framework.version>6.1.20</spring-framework.version>
+    <spring-framework-security.version>6.4.6</spring-framework-security.version>
     <com.fasterxml.jackson.version>2.12.7.1</com.fasterxml.jackson.version>
     <org.eclipse.jetty.version>9.3.0.M2</org.eclipse.jetty.version>
     <slf4j.version>1.7.10</slf4j.version>
     <logback.version>1.5.13</logback.version>
     <jee.version>7.0</jee.version>
     <org.mongodb.version>3.2.2</org.mongodb.version>
-    <org.springframework.data.version>4.2.11</org.springframework.data.version>
+    <org.springframework.data.version>4.3.12</org.springframework.data.version>
     <servletApi.version>6.1.11</servletApi.version>
     <apacheCommonLang.version>2.6</apacheCommonLang.version>
     <apacheCodec.version>1.13</apacheCodec.version>
